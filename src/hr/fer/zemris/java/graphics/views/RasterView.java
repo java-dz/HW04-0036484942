@@ -17,14 +17,14 @@ import hr.fer.zemris.java.graphics.raster.BWRaster;
  */
 public interface RasterView {
 
-	/**
-	 * Produces the view of the specified raster and returns an object that
-	 * represents the produced view. It is up to an implementing class to decide
-	 * how this method should be implemented.
-	 * 
-	 * @param raster raster whose view is to be produced
-	 * @return an object that represents the produced view
-	 */
-	Object produce(BWRaster raster);
-	
+    /**
+     * Produces the view of the specified raster and returns an object that
+     * represents the produced view. It is up to an implementing class to decide
+     * how this method should be implemented.
+     *
+     * @param raster raster whose view is to be produced
+     * @return an object that represents the produced view
+     */
+    Object produce(BWRaster raster);
+
 }
